@@ -1,8 +1,8 @@
 Type: Package
 Package: mlfit
 Title: Iterative Proportional Fitting Algorithms for Nested Structures
-Version: 0.5.2
-Date: 2021-07-02
+Version: 0.5.3
+Date: 2021-10-08
 Authors@R: 
     c(
         person(
@@ -44,15 +44,16 @@ BugReports: https://github.com/mlfit/mlfit/issues
 Depends: methods
 Imports: BB, dplyr, hms, kimisc, Matrix, plyr, tibble, forcats, rlang,
         utils, wrswoR, lifecycle
-Suggests: covr, testthat, MASS, sampling, XML, waldo
+Suggests: covr, testthat (>= 3.0.0), MASS, sampling, XML, waldo
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
+Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2021-07-02 06:27:30 UTC; amarin
+Packaged: 2021-10-08 06:34:04 UTC; amarin
 Author: Kirill Müller [aut, cph] (Creator of the package),
   Kay W. Axhausen [ths] (Advisor of Kirill Müller),
   Amarin Siripanich [aut, cre] (Contributed `ml_replicate()`),
   Taha H. Rashidi [ths] (Advisor of Amarin Siripanich)
 Maintainer: Amarin Siripanich <amarin.siri@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-07-02 07:20:02 UTC
+Date/Publication: 2021-10-08 06:50:02 UTC
